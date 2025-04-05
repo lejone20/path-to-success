@@ -1,4 +1,15 @@
-.root{
+/* CSS BY NAME Lillian Jones */
+/* IMPORTED FONTS */
+@font-face {
+    font-family: Kavoon, Inter;
+    src: url(https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
+}
+/* CSS RESET */
+
+
+
+/* ROOT VARIABLES */
+:root{
     Teal :#4CA7C0;
     Purple: #484FB7;
     Lavender: #6B8FE7;
@@ -8,6 +19,8 @@
     White:#ffffff; 
  
 }
+
+/* GLOBAL STYLES (mobile first/small) */
 h1, h2{
     @font-face {
         font-family: Kavoon;
@@ -110,7 +123,7 @@ table, td{
     background-color: #D9526F;
     color:#ffffff;
 }
-#individual, #group, #workshops, #courses{
+#individual1, #individual2, #individual3, #group1, #group2, #workshops, #courses{
     background-color: #ffffff;
     margin:auto;
     width: 230px;
@@ -124,6 +137,9 @@ table, td{
     height: 40px;
     border: 3px solid #D9526F;
 }
+#choose h2{
+    color: #ffffff;
+}
 footer{
     height: 30px;
     color: #ffffff;
@@ -134,4 +150,5 @@ footer a{
 }
 #first_step h2{
     color: #ffffff;
+    font-size: 2em;
 }
