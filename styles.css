@@ -1,9 +1,137 @@
-embed{
-    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
+.root{
+    Teal :#4CA7C0;
+    Purple: #484FB7;
+    Lavender: #6B8FE7;
+    Yellow: #E9BB57; 
+    Pink:#D9526F;
+    Dark-gray:#1E1E1E; 
+    White:#ffffff; 
+ 
 }
-H1, H2{
-    font-family: Kavoon;
+h1, h2{
+    @font-face {
+        font-family: Kavoon;
+        src: url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
+    
+    }
 }
-p{
-    font-family: Inter;
+body, main, footer{
+    margin-left: auto;
+    margin-right: auto;
+    @font-face {
+        font-family: Inter;
+        src: url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
+    }
+    background-color: #6B8FE7;
+
+}
+footer, header, div, section, main{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 300px;
+    background-color: #484FB7;
+    
+
+}
+nav{
+  
+    width: 250px;
+    height: 200px;
+    background-color: #E9BB57;
+    margin: auto;
+    margin-bottom: auto;
+}
+nav h2{
+    text-align: center;
+
+}
+nav ul>li{
+    list-style: none;
+    display: block;
+    background-color:  #ffffff;
+    width: 225px;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    margin: -30px;
+    margin-top: auto;
+    border: 4px solid #E9BB57;
+    
+
+
+}
+header > p{
+    color:#ffffff;
+    text-align: center;
+}
+h1{
+    @font-face {
+        font-family: Kavoon;
+        src: url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
+    }
+    text-align: center;
+    font-size: 3em;
+    color:#ffffff;
+
+}
+nav > h2{
+    font-size: 1.5em;
+    color: #1E1E1E;
+
+}
+h2{
+    font-size: 2em;
+    color: #E9BB57;
+}
+H3{
+    font-size: 1.5em;
+    color: #E9BB57;
+}
+h4{
+    font-size: 1.15em;
+    color: #E9BB57;
+}
+th{
+    background-color: #E9BB57;
+}
+table{
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+table, td{
+    border: 1px solid #E9BB57;
+}
+
+#first_step, #choose{
+    background-color: #D9526F;
+    color:#ffffff;
+}
+#individual, #group, #workshops, #courses{
+    background-color: #ffffff;
+    margin:auto;
+    width: 230px;
+    }
+#choose ul>li{
+    color: black;
+    list-style: none;
+    display: block;
+    background-color:  #ffffff;
+    width: 150px;
+    height: 40px;
+    border: 3px solid #D9526F;
+}
+footer{
+    height: 30px;
+    color: #ffffff;
+
+}
+footer a{
+    color: #ffffff;
+}
+#first_step h2{
+    color: #ffffff;
 }
